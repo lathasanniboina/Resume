@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
     margin:0;
@@ -259,4 +259,62 @@ p
 
 }
 
+ */
 
+
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #0073e6;
+  }
+  
+  .job, .project {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
